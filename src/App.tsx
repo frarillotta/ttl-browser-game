@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { forwardRef, Suspense, useEffect, useRef, useState, useMemo } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import './App.css';
@@ -218,7 +219,7 @@ function App({count = 80}) {
 
   return (
     <Suspense fallback={<div/>}>
-      <HitCount></HitCount>
+      {/* <HitCount /> */}
       <Canvas
         shadows
         camera={{fov: 70}}
