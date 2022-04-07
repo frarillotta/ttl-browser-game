@@ -242,10 +242,11 @@ function App({count = 80}) {
           <Cloud
             position={[10, 35, -100]}
             width={20}
-            segments={40}
+            segments={80}
           />
           <Cloud
             position={[45, 32, -100]}
+            segments={80}
           />
           <Cloud
             position={[40, 32, -100]}
